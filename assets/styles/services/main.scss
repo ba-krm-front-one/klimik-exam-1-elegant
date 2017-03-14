@@ -1,34 +1,34 @@
-.ba-services{
+.ba-services {
   padding: 101px 0 80px;
   text-align: center;
-  color:  $text-color--dark;
+  color: $text-color--dark;
 
-  hr{
+  hr {
     width: 86px;
     height: 2px;
     border: none;
-    background-color:  $text-color--dark;
+    background-color: $text-color--dark;
     margin: 50px auto 70px;
   }
-  &-description{
-    width: 320px;
-    padding-bottom: 40px;
+}
+.ba-services-description{
+  width: 320px;
+  padding-bottom: 40px;
 
-    &__img{
-      height: 150px;
+  &__img{
+    height: 150px;
 
-      &--align{
-        @extend .ba-services-description__img;
-        padding-top: 17px;
-      }
+    &--align{
+      @extend .ba-services-description__img;
+      padding-top: 17px;
     }
-    &__title{
-      font-size: 24px;
-      margin-bottom: 30px;
-      margin-top: 30px;
-    }
-    &__text{
-      line-height: 1.875;
-    }
+  }
+  &__title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  &__text{
+    line-height: 1.875;
   }
 }

@@ -838,19 +838,20 @@ img {
     border: none;
     background-color: #222;
     margin: 50px auto 70px; }
-  .ba-services-description {
-    width: 320px;
-    padding-bottom: 40px; }
-    .ba-services-description__img, .ba-services-description__img--align {
-      height: 150px; }
-      .ba-services-description__img--align {
-        padding-top: 17px; }
-    .ba-services-description__title {
-      font-size: 24px;
-      margin-bottom: 30px;
-      margin-top: 30px; }
-    .ba-services-description__text {
-      line-height: 1.875; }
+
+.ba-services-description {
+  width: 320px;
+  padding-bottom: 40px; }
+  .ba-services-description__img, .ba-services-description__img--align {
+    height: 150px; }
+    .ba-services-description__img--align {
+      padding-top: 17px; }
+  .ba-services-description__title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+  .ba-services-description__text {
+    line-height: 1.875; }
 
 .ba-about {
   width: 100%;
@@ -894,35 +895,74 @@ img {
   padding: 103px 0 80px; }
   .ba-work hr {
     margin: 50px auto 90px; }
-  .ba-work-content {
-    max-width: 370px;
-    max-height: 420px;
-    position: relative;
-    margin-bottom: 80px; }
-    .ba-work-content__overlay {
-      background: rgba(0, 0, 0, 0.75);
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      padding: 42% 0 0;
-      visibility: hidden; }
-    .ba-work-content__title {
-      color: #fff;
-      font-size: 22px;
-      font-weight: 400;
-      line-height: 60px;
-      text-transform: uppercase;
-      text-align: center; }
-    .ba-work-content__icon {
-      left: 50%;
-      position: absolute;
-      margin: 20px 0 0 -20px; }
-    .ba-work-content:hover .ba-work-content__overlay {
-      visibility: visible; }
+
+.ba-work-content {
+  max-width: 370px;
+  max-height: 420px;
+  position: relative;
+  margin-bottom: 80px; }
+  .ba-work-content__overlay {
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 42% 0 0;
+    visibility: hidden; }
+  .ba-work-content__title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center; }
+  .ba-work-content__icon {
+    left: 50%;
+    position: absolute;
+    margin: 20px 0 0 -20px; }
+  .ba-work-content:hover .ba-work-content__overlay {
+    visibility: visible; }
+
+.ba-contact-form {
+  max-width: 730px;
+  margin: 70px auto 0; }
+  .ba-contact-form__input {
+    flex-grow: 1;
+    width: 302px;
+    min-width: 100px;
+    background: none;
+    border-bottom: 2px solid #afafaf;
+    font-size: 18px;
+    line-height: 40px;
+    font-style: italic;
+    margin: 0 60px 100px 0;
+    padding-left: 25px; }
+    .ba-contact-form__input:nth-child(3) {
+      width: 670px; }
+  .ba-contact-form__submit {
+    width: 177px;
+    height: 54px;
+    background: none;
+    border: 3px solid #fff;
+    font-size: 24px; }
+    .ba-contact-form__submit:hover {
+      box-shadow: inset 1px 1px 1px 0 #aaa;
+      transform: translateY(1px); }
+
+::-webkit-input-placeholder {
+  color: #676767; }
+
+::-moz-placeholder {
+  color: #676767; }
+
+:-moz-placeholder {
+  color: #676767; }
+
+:-ms-input-placeholder {
+  color: #676767; }
 
 .ba-contact {
   background: url("../img/footer-bg.jpg") 50% no-repeat;
@@ -938,43 +978,6 @@ img {
     .ba-contact__social-icon:hover {
       border-radius: 50%;
       border-top: 2px dotted #fff; }
-  .ba-contact-form {
-    max-width: 730px;
-    margin: 70px auto 0; }
-    .ba-contact-form__input {
-      flex-grow: 1;
-      width: 302px;
-      min-width: 100px;
-      background: none;
-      border-bottom: 2px solid #afafaf;
-      font-size: 18px;
-      line-height: 40px;
-      font-style: italic;
-      margin: 0 60px 100px 0;
-      padding-left: 25px; }
-      .ba-contact-form__input:nth-child(3) {
-        width: 670px; }
-    .ba-contact-form__submit {
-      width: 177px;
-      height: 54px;
-      background: none;
-      border: 3px solid #fff;
-      font-size: 24px; }
-      .ba-contact-form__submit:hover {
-        box-shadow: inset 1px 1px 1px 0 #aaa;
-        transform: translateY(1px); }
-
-::-webkit-input-placeholder {
-  color: #676767; }
-
-::-moz-placeholder {
-  color: #676767; }
-
-:-moz-placeholder {
-  color: #676767; }
-
-:-ms-input-placeholder {
-  color: #676767; }
 
 @media all and (max-width: 330px) {
   .ba-contact__social-icon {
