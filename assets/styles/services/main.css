@@ -1,0 +1,23 @@
+.ba-services {
+  padding: 116px 0 80px;
+  text-align: center;
+  color: #222222; }
+  .ba-services hr {
+    width: 86px;
+    height: 2px;
+    border: none;
+    background-color: #222222;
+    margin: 50px auto 70px; }
+  .ba-services-description {
+    width: 320px;
+    padding-bottom: 40px; }
+    .ba-services-description__img {
+      height: 150px; }
+      .ba-services-description__img--align {
+        padding-top: 17px; }
+    .ba-services-description__title {
+      font-size: 24px;
+      margin-bottom: 30px;
+      margin-top: 30px; }
+    .ba-services-description__text {
+      line-height: 1.875; }
