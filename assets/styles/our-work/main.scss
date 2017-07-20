@@ -1,0 +1,43 @@
+.ba-work {
+  text-align: center;
+  padding: 103px 0 80px;
+
+  hr {
+    margin: 50px auto 90px;
+  }
+}
+.ba-work-content{
+  max-width: 370px;
+  max-height: 420px;
+  position: relative;
+  margin-bottom: 80px;
+
+  &__overlay{
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 42% 0 0;
+    visibility: hidden;
+  }
+  &__title{
+    color: $text-color;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__icon{
+    left: 50%;
+    position: absolute;
+    margin: 20px 0 0 -20px;
+  }
+  &:hover .ba-work-content__overlay{
+    visibility: visible;
+  }
+}

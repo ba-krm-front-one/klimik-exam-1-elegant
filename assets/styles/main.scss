@@ -1,0 +1,59 @@
+@import "normalize";
+@import "layout";
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700|Raleway:700');
+@import "header/main.scss";
+@import "services/main.scss";
+@import "about/main.scss";
+@import "our-work/main.scss";
+@import "footer/main.scss";
+
+body{
+  font: 400 16px $main-font-family;
+  color: $text-color;
+}
+hr{
+  width: 86px;
+  height: 2px;
+  border: none;
+  background-color:  $text-color--dark;
+}
+.ba-container{
+  max-width: 1250px;
+}
+.ba-title{
+  font-family: $title-font-family;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  
+  &--dark{
+    @extend .ba-title;
+    color: $text-color--dark;
+  }
+}
+.ba-flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ba-button{
+  display: inline-block;
+  min-height: 60px;
+  padding: 0 12.5%;
+  background: none;
+  border: 2px solid $text-color--dark;
+  color: $text-color--dark;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+
+  &:hover{
+    box-shadow: inset 1px 1px 1px 0 $text-color--dark;
+    transform: translateY(1px);
+  }
+}
+
+

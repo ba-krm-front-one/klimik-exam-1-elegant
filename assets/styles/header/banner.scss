@@ -1,0 +1,19 @@
+.ba-banner{
+  padding: 250px 0 395px;
+  text-align: center;
+
+  hr{
+    background: #fff;
+    margin: 30px auto;
+  }
+
+  &__title{
+    font-size: 48px !important;
+  }
+  &__description{
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: auto;
+  }
+}
